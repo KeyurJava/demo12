@@ -25,7 +25,7 @@ public class HelloWorldController implements ServletContextAware {
 		// context.getAttribute("connection");
 		String message = helloWorldService.doSomneLogic();
 		return new ModelAndView("helloworld", "message", message);
-System.out.println("Hello");
+
 	}
 	// WEB-INF/views/helloworld.jsp
 
